@@ -18,15 +18,15 @@ echo "Generating article directory..."
 
 cat > "text/index.html" <<EOF
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Joy for Everyone">
+    <meta name="description" content="持续收集koishi相关meme中">
     <link rel="icon" href="/static/favicon.ico">
-    <title>MemeBox | Joy for Everyone</title>
+    <title>Koishi Meme | 持续收集koishi相关meme中</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.0/css/pico.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <style>
@@ -38,11 +38,11 @@ cat > "text/index.html" <<EOF
 
 <body>
     <main class="container">
-        <h1>MemeBox | <a href="/">Picture memes</a></h1>
+        <h1>Koishi Meme | <a href="/">图片梗</a></h1>
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
-> _Text memes description._
+koishi文字梗
 
 EOF
 
@@ -59,7 +59,7 @@ cat >> "text/index.html" <<EOF
         </article>
 
         <footer id="footer">
-            <p>** Footer **</p>
+            <p>Copyright © 2024 itzdrli</p>
         </footer>
     </main>
 </body>

@@ -13,15 +13,15 @@ do
     echo Converting "'${doc:4}'" ...
     cat > "text/${doc:4:-3}.html" <<EOF
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Joy for Everyone">
+    <meta name="description" content="持续收集koishi相关meme中">
     <link rel="icon" href="/static/favicon.ico">
-    <title>MemeBox | Joy for Everyone</title>
+    <title>Koishi Meme | 持续收集koishi相关meme中</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.0/css/pico.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <style>
@@ -33,7 +33,7 @@ do
 
 <body>
     <main class="container">
-        <h1>MemeBox | <a href="/text">Text memes</a></h1>
+        <h1>Koishi Meme | <a href="/text">文字梗</a></h1>
         <article id="view">
             <github-md>
 EOF
@@ -43,7 +43,7 @@ EOF
         </article>
 
         <footer id="footer">
-            <p>** Footer **</p>
+            <p>Copyright © 2024 itzdrli</p>
         </footer>
     </main>
 </body>

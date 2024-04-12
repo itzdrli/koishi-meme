@@ -4,7 +4,7 @@ PAGELANG?=zh
 
 TITLE?=Koishi Meme
 DESC?=Koishi人的日常
-TDESC?=> _Text memes description._
+TDESC?=> _喵喵喵_
 FOOTER?=Copyright © 2024 itzdrli
 
 ifeq (${PAGELANG}, zh)
