@@ -120,7 +120,7 @@ function view() {
 async function initgallery() {
     document.getElementById(
         'description'
-    ).innerHTML = `持续收集koishi相关meme中, 目前已有 ${items.length} 张。`
+    ).innerHTML = `Koishi人的日常, 目前已有 ${items.length} 张。`
     document.getElementById('refresh-btn').onclick = () => {
         location.hash = `#${
             items[random(items.length - 1, 0)].match(
