@@ -1,78 +1,76 @@
-<center><h1> MemeBox </h1></center>
+<center><h1> Koishi meme </h1></center>
 
-<center>Website template for meme collection.</center>
-
-[简体中文](./README_zh.md)
+<center>Koishi人的日常</center>
 
 * * *
 
-### Description
+### 描述
 
-This template is extracted from [NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme).
+本网站使用模板 [NoneMeme/memebox](https://github.com/NoneMeme/memebox).
 
-MemeBox can contain various contents including images and markdown documents.
+Memebox 可以存放多种内容，如`图片`和`Markdown文档`。
 
-### Build
+### 贡献 & 构建
 
-1. Prepare a `make` tool.
+1. 准备一个`make`工具。
 
-2. Generate your repo with this template.
+2. 使用本模板，生成你的仓库。
 
-3. Clone your repo.
+3. 克隆你的仓库。
 
-4. Open a shell and switch to the repo directory.
+4. 打开终端，进入你的仓库。
 
-5. Run `make`.
+5. 运行 make。
 
-    > NOTE: The default `PAGELANG` is now `en` (English).
+    > 注意: 默认的变量 `PAGELANG` 现在是 `zh` (中文).
     >
-    > Read more info in [Custom text](#custom-text).
+    > 详情： [自定义文字](#自定义文字).
 
-6. Add your contents to `art/` (for documents) or `meme/` (for pictures).
+6. 将你的资源放入 `art/` (文档) 或 `meme/` (图片).
 
-    > NOTE: MemeBox does **not** include any icon files.
+    > 注意: Memebox **不** 含有网站图标。
     >
-    > You should prepare your icons and put them into `static/` folder.
+    > 你应该将你的图标放入`static/`目录内。
     >
-    > See the output from make for more information.
+    > 更多信息可查看`make`的输出内容。
 
-7. Commit and push.
+7. 提交并推送。
 
-### Custom text
+### 自定义文字
 
-Usually, you may expect to change some text rather than "MemeBox" etc.
+通常，你可能想自定义网站的标题等等。
 
-For this, you can define these temporary environment variables below to override the default:
+你可以通过在终端中定义以下环境变量值来进行修改操作：
 
-|Name|Description|
+|名称|D描述|
 |:----|:----|
-|PAGELANG|Page language mark for .html file, also decides the default text, e.g. "zh"|
-|TITLE|The title of your memebox, e.g. "MemeBox"|
-|DESC|A short description for your memebox, e.g. "Joy for Everyone"|
-|TDESC|A description for the text part|
-|FOOTER|Footer on every pages|
+|PAGELANG|.html文件的页面语言标记,同时也定义了网站使用的语言，例如："zh"|
+|TITLE|网站标题， 例如："MemeBox"|
+|DESC|网站描述，例如："Joy for Everyone"|
+|TDESC|文字梗的描述|
+|FOOTER|每个页面的脚注|
 
-Just like this:
+比如：
 
     PAGELANG=en TITLE=Foo DESC=Bar FOOTER="Lorem ipsum" make
 
-If the default text does not satisfy you, don't worry, they are also customizable with the way above:
+如果默认信息你看不顺眼，没关系，它们也是可以修改的：
 
-|Name|Description|
+|名称|描述|
 |:----|:----|
-|T_MEMEPIC|Indicates a hyperlink jumping to picture page|
-|T_MEMETXT|Indicates a hyperlink jumping to text page|
-|T_DOWNLOAD|A hint for downloading a image|
-|T_ANOTHER|A hint for randomly picking a image|
-|T_BACK|A hint for leaving the full view|
-|T_ZOOMIN|A hint for entering the full view|
-|T_NIMGS|Images summary text|
+|T_MEMEPIC|跳转至图片页面的链接名称|
+|T_MEMETXT|跳转至文字页面的超链接名称|
+|T_DOWNLOAD|下载一张图片时弹出的提示|
+|T_ANOTHER|随机选择一张图片时弹出的提示|
+|T_BACK|返回主页的提示|
+|T_ZOOMIN|查看大图的提示|
+|T_NIMGS|图片统计信息|
 
-### License
+### 许可证
 
-This template is under the [MIT License](LICENSE).
+本项目使用 [MIT 协议](LICENSE) 开源。
 
-### Special thanks
+### 特别感谢
 
 - **[modcrafts/a60-shop](https://github.com/modcrafts/a60-shop)**
 
