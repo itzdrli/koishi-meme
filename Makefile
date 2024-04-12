@@ -1,11 +1,11 @@
 # memebox generating
 
-PAGELANG?=en
+PAGELANG?=zh
 
-TITLE?=MemeBox
-DESC?=Joy for Everyone
+TITLE?=Koishi Meme
+DESC?=Koishi人的日常
 TDESC?=> _Text memes description._
-FOOTER?=** Footer **
+FOOTER?=Copyright © 2024 itzdrli
 
 ifeq (${PAGELANG}, zh)
 T_MEMEPIC?=图片梗
