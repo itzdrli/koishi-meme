@@ -1,16 +1,16 @@
-<center><h1> Koishi meme </h1></center>
+<center><h1> MemeBox </h1></center>
 
-<center>Koishi人的日常</center>
+<center>NoneMeme项目使用的网站模板</center>
 
 * * *
 
 ### 描述
 
-本网站使用模板 [NoneMeme/memebox](https://github.com/NoneMeme/memebox).
+本模板提取自 [NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme).
 
 Memebox 可以存放多种内容，如`图片`和`Markdown文档`。
 
-### 贡献 & 构建
+### 构建
 
 1. 准备一个`make`工具。
 
@@ -22,7 +22,7 @@ Memebox 可以存放多种内容，如`图片`和`Markdown文档`。
 
 5. 运行 make。
 
-    > 注意: 默认的变量 `PAGELANG` 现在是 `zh` (中文).
+    > 注意: 默认的变量 `PAGELANG` 现在是 `en` (英文).
     >
     > 详情： [自定义文字](#自定义文字).
 
