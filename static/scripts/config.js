@@ -577,6 +577,7 @@ export default {
     "meme/难道你就是那个glm的作者秋叶.png",
     "meme/雌堕求大佬.png",
     "meme/露娜：ban自己.png",
+    "meme/香 草 泥.png",
     "meme/马上出道了.png",
     "meme/骗子签名.png",
     "meme/麻 省 理 工.png",
