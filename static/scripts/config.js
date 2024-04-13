@@ -280,6 +280,7 @@ export default {
     "meme/很 简 单 的.png",
     "meme/得想个办法让你睡过去.png",
     "meme/快来给我安利吧！小学妹！草发错了.png",
+    "meme/怎 么 是 koishi meme.png",
     "meme/怎 么 让 机 器 人 ....png",
     "meme/怎么启动来着.png",
     "meme/怎么在电脑关机的情况下让机器人继续运行，怎么在不工作的情况下赚钱.png",
