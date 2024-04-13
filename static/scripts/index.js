@@ -69,14 +69,14 @@ async function loadgallery(remainItemCount) {
     const node = createEleByTemp('gallery-item', {
         id: `#${
             items[displayedItemCount].match(
-                /meme\/(.+)\.(jpg|png|jfif|webp|gif)/
+                /meme\/(.+)\.(jpg|png|jfif|webp|gif|jpeg)/
             )[1]
         }`,
         src: `./${items[displayedItemCount]}`,
         alt: items[displayedItemCount],
         title: `# ${
             items[displayedItemCount].match(
-                /meme\/(.+)\.(jpg|png|jfif|webp|gif)/
+                /meme\/(.+)\.(jpg|png|jfif|webp|gif|jpeg)/
             )[1]
         }`,
     })
