@@ -15,8 +15,6 @@ export default {
     "meme/810笑话3.jpg",
     "meme/AI没见过.png",
     "meme/Blockly那个作者叫t4，问他就行.png",
-    "meme/KBD是什么.jpg",
-    "meme/KBD是什么2.png",
     "meme/KBD猫猫1.png",
     "meme/KBD猫猫2.png",
     "meme/KBD猫猫3.png",
