@@ -132,6 +132,7 @@ export default {
     "meme/你 是 我 男 人.jpg",
     "meme/你 最 棒.png",
     "meme/你 有 点 太 fw 了 吧.png",
+    "meme/你 的 名 字 ....png",
     "meme/你什么协议？ws协议.png",
     "meme/你什么协议？ws开头.png",
     "meme/你什么时候雌堕.png",
