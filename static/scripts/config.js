@@ -265,6 +265,7 @@ export default {
     "meme/您.png",
     "meme/想你了，哥哥.png",
     "meme/意外收获.png",
+    "meme/感 觉 这 个 群 随 便 截 个 图 都 是 meme.jpg",
     "meme/感谢.png",
     "meme/我 一 个 人 带 着 项 圈 迷 路 了.jpeg",
     "meme/我 会 对 此 负 责.png",
