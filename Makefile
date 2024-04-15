@@ -3,7 +3,7 @@
 PAGELANG?=zh
 
 TITLE?=Koishi Meme
-DESC?=Koishi人的日常
+DESC?=Koishi人meme合集
 TDESC?=> _喵喵喵_
 FOOTER?=Copyright © 2024 itzdrli
 
