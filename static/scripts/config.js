@@ -294,6 +294,7 @@ export default {
     "meme/我 想 超 你.png",
     "meme/我 抹 了 油 了.jpeg",
     "meme/我 是 妹 妹.jpg",
+    "meme/我 是 小 南 梁.png",
     "meme/我 是 机 器 人.png",
     "meme/我 是 萝 莉 控 啊.png",
     "meme/我 有 主 人 了.png",
