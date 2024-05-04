@@ -338,6 +338,7 @@ export default {
     "meme/手 感 不 错.png",
     "meme/才 一 会 就 抄 不 动 了.png",
     "meme/打 一 物 品.png",
+    "meme/打 胶 高 手.png",
     "meme/找喵~个核心砍掉一半.png",
     "meme/抱歉，我选择这个.png",
     "meme/挂 哥 都 来 了.png",
