@@ -507,6 +507,7 @@ export default {
     "meme/蒜 好 冲.png",
     "meme/虽然不被支持（反复强调.png",
     "meme/虽然很想感谢你，但是你这个名字装上去后会报错.png",
+    "meme/被 榨 干 了.webp",
     "meme/要不是你是个男的咱就考虑一下了.png",
     "meme/要不让他继续好奇吧.png",
     "meme/要啥没啥.png",
