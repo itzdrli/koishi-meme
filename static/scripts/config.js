@@ -1,5 +1,6 @@
 export default {
   items: [
+    "meme/0 是 管 理.webp",
     "meme/10岁以上就能....jpg",
     "meme/127.0.0.1.png",
     "meme/42屏蔽我了.png",
