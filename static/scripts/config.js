@@ -116,6 +116,7 @@ export default {
     "meme/人人都死了，单审核还在.png",
     "meme/人类败在了美少女客服的脚下！.png",
     "meme/人老心不老！.png",
+    "meme/什 么 b pr.webp",
     "meme/什 么 是 幸 运.jpeg",
     "meme/什么都信GPT只会害了你.png",
     "meme/今天群里收了好多涩图 开心.png",
