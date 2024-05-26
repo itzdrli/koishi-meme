@@ -427,6 +427,7 @@ export default {
     "meme/爽.png",
     "meme/狐莉！大狐狸ononon.png",
     "meme/狗 管 理.png",
+    "meme/狠 狠 操 我.webp",
     "meme/玩星铁玩的.png",
     "meme/现 充 怎 么 你 了.png",
     "meme/现 在 写 前 端 都 用 cpp.png",
