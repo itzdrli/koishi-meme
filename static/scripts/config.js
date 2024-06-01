@@ -303,6 +303,7 @@ export default {
     "meme/我 喜 欢 的 只 有 飞 飞.png",
     "meme/我 喜 欢 迷 子.png",
     "meme/我 已 经 睡 着 了.webp",
+    "meme/我 当 楠 娘 给 你 撅.webp",
     "meme/我 想 玩 你.jpeg",
     "meme/我 想 超 你.png",
     "meme/我 抹 了 油 了.jpeg",
