@@ -524,6 +524,7 @@ export default {
     "meme/让我设设，我挑战一下.png",
     "meme/论可信程度.png",
     "meme/请 与 我 分 享.png",
+    "meme/请 教 教 我.webp",
     "meme/请温柔一点.png",
     "meme/请温柔一点2.png",
     "meme/请问你要来点兔子吗.jpg",
@@ -585,6 +586,7 @@ export default {
     "meme/骗子签名.png",
     "meme/麻 省 理 工.png",
     "meme/麻 麻.png",
-    "meme/黑 丝.png"
+    "meme/黑 丝.png",
+    "meme/🔒🐮🐮.webp"
   ]
 }
