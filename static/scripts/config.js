@@ -76,7 +76,6 @@ export default {
     "meme/为什么要520发插件，因为不是每个人都有女朋友的.png",
     "meme/也 不 是 不 可 以.png",
     "meme/也 不 错.png",
-    "meme/予云叶: :(.webp",
     "meme/二次元都是辣鸡.png",
     "meme/产业链.png",
     "meme/亲亲，抱抱，举高高.png",
