@@ -183,6 +183,7 @@ export default {
     "meme/安妮：可以涩涩，哪里有涩涩.webp",
     "meme/安妮：我要涩涩，美少女快来跟我涩涩.webp",
     "meme/客 服 内 战.webp",
+    "meme/对 的.webp",
     "meme/射 过 三 遍.webp",
     "meme/小 学 妹.webp",
     "meme/小 心 我 给 你 砍 了.webp",
