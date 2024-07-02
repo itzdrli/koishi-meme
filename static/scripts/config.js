@@ -248,6 +248,7 @@ export default {
     "meme/我 有 主 人 了.webp",
     "meme/我 有 暴 露 癖.webp",
     "meme/我 死 了.webp",
+    "meme/我 笨.webp",
     "meme/我 要 几 把!.webp",
     "meme/我 要 揍 他.webp",
     "meme/我 要 看 梦 梦 漫 画.webp",
