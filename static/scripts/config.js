@@ -126,6 +126,7 @@ export default {
     "meme/公 共 厕 所.webp",
     "meme/关 门 歇 业.webp",
     "meme/兵 装 美 少 女.webp",
+    "meme/内 裤 呢.webp",
     "meme/内 设 口 袋.webp",
     "meme/内 鬼.webp",
     "meme/写！.webp",
