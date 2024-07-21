@@ -98,6 +98,7 @@ export default {
     "meme/你 不 氟 气 ？.webp",
     "meme/你 个 小 可 爱.webp",
     "meme/你 也 是 萝 莉 魅 魔.webp",
+    "meme/你 写 的 什 么 代 码.webp",
     "meme/你 只 能 祸 害 我.webp",
     "meme/你 怎 么 啥 都 存.webp",
     "meme/你 怎 么 成 管 理 员 了.webp",
