@@ -54,6 +54,7 @@ export default {
     "meme/不 想 努 力 了.webp",
     "meme/不 按 群 规 提 问 的 惩 罚.webp",
     "meme/不 敢 苟 同.webp",
+    "meme/不 用 干 活 就 能 发 钱 的 岗 位.webp",
     "meme/不 认 识.webp",
     "meme/不不不，v我4090就能解决.webp",
     "meme/不准你结婚.webp",
