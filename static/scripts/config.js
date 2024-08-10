@@ -353,6 +353,7 @@ export default {
     "meme/睡 飞 飞.webp",
     "meme/矿老板闻着味来了.webp",
     "meme/研 究 哲 学.webp",
+    "meme/硬 气 点.webp",
     "meme/确 实 有 问 题.webp",
     "meme/程序员都是足控.webp",
     "meme/第 二 步.webp",
