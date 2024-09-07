@@ -135,6 +135,7 @@ export default {
     "meme/农 疲.webp",
     "meme/出现错误.webp",
     "meme/刑 法.webp",
+    "meme/刚 看 到 就 🐍 了.webp",
     "meme/刚刚我想问什么来着.webp",
     "meme/创 建 孩 子.webp",
     "meme/到 底 是 谁.webp",
