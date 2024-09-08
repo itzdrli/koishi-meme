@@ -1,22 +1,24 @@
 <template>
   <div class="min-h-screen flex flex-col bg-ctp-base">
-    <main class="flex-grow container mx-auto px-4 py-8">
-      <h1 class="text-4xl font-bold mb-8 text-ctp-text">Koishi Memes</h1>
+    <header class="bg-ctp-surface0 text-ctp-text py-4">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold">Koishi Memes</h1>
+      </div>
+    </header>
+    
+    <main class="flex-grow container mx-auto px-4 py-8 mb-16">
       <GalleryGrid :images="shuffledImages" @open-image="openImage" />
       <ImageModal v-if="selectedImage" :image="selectedImage" @close="closeImage" />
     </main>
-    <footer class="bg-ctp-surface0 text-ctp-text py-4">
+    
+    <footer class="fixed bottom-0 left-0 right-0 bg-ctp-surface0 text-ctp-text py-2 shadow-lg">
       <div class="container mx-auto px-4 text-center">
-        <p></p>
-        <p class="mt-2">
+        <p class="text-sm">
           <a href="https://github.com/itzdrli/koishi-meme" target="_blank" rel="noopener noreferrer"
             class="hover:underline">
-            GitHub
-          </a> | <a href="https://t.me/koimemes" target="_blank" rel="noopener noreferrer" class="hover:underline">
-            Telegram 频道
-          </a> | <a href="https://koishi.chat" target="_blank" rel="noopener noreferrer" class="hover:underline">
-            Koishi 官网
-          </a>
+            GitHub</a> | <a href="https://t.me/koimemes" target="_blank" rel="noopener noreferrer" class="hover:underline">
+            Telegram 频道</a> | <a href="https://koishi.chat" target="_blank" rel="noopener noreferrer" class="hover:underline">
+            Koishi 官网</a>
         </p>
       </div>
     </footer>
