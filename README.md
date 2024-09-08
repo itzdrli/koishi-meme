@@ -1,83 +1,75 @@
-<center><h1> Koishi Meme </h1></center>
+# Nuxt 3 Minimal Starter
 
-<center>使用 Memebox 搭建</center>
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-* * *
+## Setup
 
-### 描述
+Make sure to install the dependencies:
 
-本站使用模板 [NoneMeme/Memebox](https://github.com/NoneMeme/memebox) 提取自 [NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme).
+```bash
+# npm
+npm install
 
-Memebox 可以存放多种内容，如`图片`和`Markdown文档`。
+# pnpm
+pnpm install
 
-### 构建 & 贡献
+# yarn
+yarn install
 
-1. 准备一个`make`工具。
+# bun
+bun install
+```
 
-2. 使用本模板，生成你的仓库。
+## Development Server
 
-3. 克隆你的仓库。
+Start the development server on `http://localhost:3000`:
 
-4. 打开终端，进入你的仓库。
+```bash
+# npm
+npm run dev
 
-5. 运行 make。
+# pnpm
+pnpm run dev
 
-    > 注意: 默认的变量 `PAGELANG` 现在是 `zh` (中文).
-    >
-    > 详情： [自定义文字](#自定义文字).
+# yarn
+yarn dev
 
-6. 将你的资源放入 `art/` (文档) 或 `meme/` (图片).
+# bun
+bun run dev
+```
 
-    > 注意: Memebox **不** 含有网站图标。
-    >
-    > 你应该将你的图标放入`static/`目录内。
-    >
-    > 更多信息可查看`make`的输出内容。
+## Production
 
-7. 提交并推送。
+Build the application for production:
 
-8. 直接打开PR, 等待合并
+```bash
+# npm
+npm run build
 
-### 自定义文字
+# pnpm
+pnpm run build
 
-通常，你可能想自定义网站的标题等等。
+# yarn
+yarn build
 
-你可以通过在终端中定义以下环境变量值来进行修改操作：
+# bun
+bun run build
+```
 
-|名称|D描述|
-|:----|:----|
-|PAGELANG|.html文件的页面语言标记,同时也定义了网站使用的语言，例如："zh"|
-|TITLE|网站标题， 例如："MemeBox"|
-|DESC|网站描述，例如："Joy for Everyone"|
-|TDESC|文字梗的描述|
-|FOOTER|每个页面的脚注|
+Locally preview production build:
 
-比如：
+```bash
+# npm
+npm run preview
 
-    PAGELANG=en TITLE=Foo DESC=Bar FOOTER="Lorem ipsum" make
+# pnpm
+pnpm run preview
 
-如果默认信息你看不顺眼，没关系，它们也是可以修改的：
+# yarn
+yarn preview
 
-|名称|描述|
-|:----|:----|
-|T_MEMEPIC|跳转至图片页面的链接名称|
-|T_MEMETXT|跳转至文字页面的超链接名称|
-|T_DOWNLOAD|下载一张图片时弹出的提示|
-|T_ANOTHER|随机选择一张图片时弹出的提示|
-|T_BACK|返回主页的提示|
-|T_ZOOMIN|查看大图的提示|
-|T_NIMGS|图片统计信息|
+# bun
+bun run preview
+```
 
-### 许可证
-
-本项目使用 [MIT 协议](LICENSE) 开源。
-
-### 特别感谢
-
-- **[modcrafts/a60-shop](https://github.com/modcrafts/a60-shop)**
-
-- **[picocss/pico](https://github.com/picocss/pico/tree/f9e97c0bf430df8fa3f730eb6a6e84f63d4a9b0c)**
-
-- **[MarketingPipeline/Markdown-Tag](https://github.com/MarketingPipeline/Markdown-Tag)**
-
-- **[NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme)**
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
