@@ -34,7 +34,8 @@ const emit = defineEmits(['close'])
 const copied = ref(false)
 
 const copyImageLink = () => {
-  const link = `${window.location.origin}/meme/${props.image}`
+  const encodedImage = encodeURIComponent(props.image)
+  const link = `${window.location.origin}/meme/${encodedImage}`
   
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(link).then(() => {
