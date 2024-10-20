@@ -1043,10 +1043,14 @@ const errorDev = /*#__PURE__*/Object.freeze({
   template: template$1
 });
 
-const images = defineEventHandler(() => {
+const images = defineEventHandler((event) => {
   const memeDir = path.join(process.cwd(), "public", "meme");
-  const files = fs.readdirSync(memeDir);
-  return files.filter((file) => /\.(jpg|jpeg|png|gif|webp)$/i.test(file));
+  try {
+    const files = fs.readdirSync(memeDir);
+    return files.filter((file) => /\.(jpg|jpeg|png|gif|webp)$/i.test(file));
+  } catch (error) {
+    return [];
+  }
 });
 
 const images$1 = /*#__PURE__*/Object.freeze({
