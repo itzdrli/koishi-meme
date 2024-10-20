@@ -35,7 +35,7 @@ const copied = ref(false)
 
 const copyImageLink = () => {
   const encodedImage = encodeURIComponent(props.image)
-  const link = `${window.location.origin}/meme/${encodedImage}`
+  const link = `${window.location.origin}/?image=${encodedImage}`
   
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(link).then(() => {
