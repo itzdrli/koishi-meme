@@ -17,8 +17,8 @@
           <a href="https://github.com/itzdrli/koishi-meme" target="_blank" rel="noopener noreferrer"
             class="hover:underline">
             GitHub</a> | <a href="https://t.me/koimemes" target="_blank" rel="noopener noreferrer" class="hover:underline">
-            Telegram 频道</a> | <a href="https://koishi.chat" target="_blank" rel="noopener noreferrer" class="hover:underline">
-            自助投稿</a> | <a href="https://t.me/FantasticSpoonBot" target="_blank" rel="noopener noreferrer" class="hover:underline">
+            Telegram 频道</a> | <a href="https://t.me/FantasticSpoonBot" target="_blank" rel="noopener noreferrer" class="hover:underline">
+            自助投稿</a> | <a href="https://koishi.chat" target="_blank" rel="noopener noreferrer" class="hover:underline">
             Koishi 官网</a>
         </p>
       </div>
