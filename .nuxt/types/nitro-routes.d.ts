@@ -6,6 +6,9 @@ declare module 'nitropack' {
     '/api/images': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/images').default>>>>
     }
+    '/api/random-meme': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/random-meme').default>>>>
+    }
     '/__nuxt_error': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt/dist/core/runtime/nitro/renderer').default>>>>
     }

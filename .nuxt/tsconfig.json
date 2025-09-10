@@ -18,7 +18,7 @@
         "../node_modules/ofetch"
       ],
       "@unhead/vue": [
-        "../node_modules/@unhead/vue"
+        "../node_modules/nuxt/node_modules/@unhead/vue"
       ],
       "@nuxt/devtools": [
         "../node_modules/@nuxt/devtools"
@@ -30,7 +30,7 @@
         "../node_modules/@vue/compiler-sfc"
       ],
       "unplugin-vue-router/client": [
-        "../node_modules/unplugin-vue-router/client"
+        "../node_modules/nuxt/node_modules/unplugin-vue-router/client"
       ],
       "@nuxt/schema": [
         "../node_modules/@nuxt/schema"
