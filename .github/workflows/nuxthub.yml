@@ -30,4 +30,4 @@ jobs:
       - name: Build & Deploy to NuxtHub
         uses: nuxt-hub/action@v2
         with:
-          project-key: koishi-meme-4hkq
+          project-key: koishi-meme-1otb
